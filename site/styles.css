@@ -1,8 +1,14 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+body {
+    background-color: rgb(228, 228, 228);
+}
 .container {
     width: 80%;
     max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
@@ -11,4 +17,7 @@
 h1 {
     margin-left: auto;
     margin-right: auto;
+}
+a {
+    text-decoration: none;
 }
